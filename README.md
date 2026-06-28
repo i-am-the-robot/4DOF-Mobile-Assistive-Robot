@@ -56,6 +56,18 @@ This project is built around a NodeMCU V3 (ESP8266) microcontroller, a 4-servo r
 
 ---
 
+## Circuit Schematic
+
+![Circuit Schematic](AssitiveRobot_Schematics2.png)
+
+---
+
+## Component Reference
+
+![Components](List_Of_Components.png)
+
+---
+
 ## Repository Structure
 
 ```
@@ -83,7 +95,7 @@ Assistive-Robot-Project/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/i-am-the-robot/Assistive-Robot-Project.git
+   git clone https://github.com/your-username/Assistive-Robot-Project.git
    cd Assistive-Robot-Project
    ```
 
@@ -190,7 +202,7 @@ Two 3.7V Li-ion cells power the system. A buck converter steps the voltage down 
 
 ---
 
-## Known Limitations
+## Take Notes
 
 - The `H` (home) command is currently commented out in the sketch — the `home()` and `autoPick()` functions exist but are not triggered via Bluetooth
 - All arm and drive commands require the `ST` command to have been sent first
