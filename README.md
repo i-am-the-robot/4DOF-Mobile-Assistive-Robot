@@ -58,7 +58,7 @@ This project is built around a NodeMCU V3 (ESP8266) microcontroller, a 4-servo r
 
 ## Circuit Schematic
 
-![Circuit Schematic](AssitiveRobot_Schematics2.png)
+![Circuit Schematic](Assitive_Robot_Schematic.bmp)
 
 ---
 
